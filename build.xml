@@ -11,7 +11,7 @@
 			</manifest>
 		</jar>
 	</target>
-	<target name="run" depends="package" description="run the package">
+	<target name="ru" depends="package" description="run the package">
 	  <java jar="build/jar/EnhancedFor.jar" fork="true"/>
 	</target>
 </project>
